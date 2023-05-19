@@ -824,3 +824,60 @@ ul {
   color: #525C60;
   margin-bottom: 15px;
 }
+
+/*categories*/
+.category {
+  background: rgb(239, 246, 241);
+}
+
+.categories__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 140px 0px;
+}
+
+.categories__list--item {
+  width: 460px;
+  height: 580px;
+  padding-top: 243px;
+}
+
+.categories--btn {
+  height: 95px;
+  width: 281px;
+  display: block;
+  border-radius: 20px;
+  border: 0.1px solid #FFFFFF;
+  background-color: #FFFFFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 35px;
+  color: #274C5B;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  -webkit-transition: border linear 0.5s;
+  transition: border linear 0.5s;
+}
+
+.categories--btn:hover {
+  border: 5px solid #7EB693;
+}
+
+.categories__list--item--left {
+  background: url("../img/fruit-imgh.png") no-repeat;
+}
+
+.categories__list--item--center {
+  background: url("../img/organic-img.png") no-repeat;
+}
+
+.categories__list--item--right {
+  background: url("../img/nuts-img.png") no-repeat;
+}
