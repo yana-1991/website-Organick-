@@ -176,3 +176,206 @@
     text-align: right;
   }
 }
+@media (max-width: 768px) {
+  .products__list {
+    -ms-grid-columns: 100%;
+    grid-template-columns: 100%;
+    justify-items: center;
+  }
+  .offer {
+    padding-top: 30px;
+  }
+  .offer--list {
+    padding-bottom: 30px;
+  }
+  .offer--wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .offer--title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .subtitle--offer {
+    margin-bottom: 15px;
+  }
+  .eco__right {
+    margin-left: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  footer {
+    padding: 20px 0px;
+  }
+  .footer__wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+  }
+  .footer--title--contact {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 30px;
+  }
+  .contact--wrapper {
+    display: inline;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    text-align: left;
+  }
+  .footer--title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-top: 1px solid rgb(213, 213, 213);
+    border-bottom: 1px solid rgb(213, 213, 213);
+    border-left: none;
+    border-right: none;
+    padding: 10px 0px;
+  }
+  .pages {
+    width: auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer--title--contact {
+    margin: 10px 0px;
+  }
+  .pages--item {
+    margin-bottom: 5px;
+    display: inline-block;
+    margin-right: 15px;
+  }
+}
+@media (max-width: 480px) {
+  .header__wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .logo--title {
+    font-size: 30px;
+    margin-right: 18px;
+  }
+  .menu_toggle::before {
+    font-size: 20px;
+  }
+  .header__left {
+    margin-bottom: 10px;
+  }
+  .welcome__text h1 {
+    font-size: 45px;
+  }
+  .promo__col {
+    width: 375px;
+  }
+  .subtitle {
+    font-size: 35px;
+  }
+  .about__row--img {
+    display: none;
+  }
+  .about__row--right {
+    margin-left: 0px;
+  }
+  .text--about {
+    margin-bottom: 20px;
+  }
+  .subtitle {
+    font-size: 25px;
+  }
+  .testimonial__footer {
+    -ms-grid-columns: 100%;
+    grid-template-columns: 100%;
+    gap: 15px;
+    justify-items: center;
+  }
+  .testimonial--subtitle {
+    margin-bottom: 20px;
+  }
+  .eco__right {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .eco__right--subtitle {
+    margin-bottom: 20px;
+    font-size: 25px;
+  }
+  .eco__right--subtitle br {
+    display: none;
+  }
+  .eco--subtitle {
+    font-size: 20px;
+  }
+  .categories__list {
+    padding: 20px 0px;
+  }
+  .categories__list--item {
+    width: 430px;
+  }
+  .subscribe__main--text {
+    font-size: 20px;
+  }
+  .subscribe__main--text br {
+    display: none;
+  }
+  input {
+    width: 200px;
+    height: 60px;
+    margin: 20px 0px 30px 0px;
+    font-size: 10px;
+  }
+  .subscribe--btn {
+    height: 62px;
+  }
+  .social--text {
+    width: auto;
+  }
+  .social--block {
+    width: auto;
+  }
+  .pages__list {
+    text-align: center;
+  }
+}
