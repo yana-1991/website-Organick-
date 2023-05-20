@@ -379,3 +379,124 @@
     text-align: center;
   }
 }
+@media (max-width: 380px) {
+  h1 br {
+    display: none;
+  }
+  .welcome__text h1 {
+    font-size: 30px;
+  }
+  .promo--text {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+  }
+  .promo__col {
+    width: 300px;
+    height: 300px;
+  }
+  .promo__col--left {
+    background-image: none;
+    color: white;
+    background-color: rgb(240, 110, 186);
+  }
+  .promo__col--right {
+    background-image: none;
+    color: rgb(39, 76, 91);
+    background-color: rgb(247, 244, 246);
+  }
+  .subtitle {
+    line-height: 29px;
+  }
+  .products__list-item {
+    width: 300px;
+    height: 490px;
+  }
+  .product--img {
+    width: 280px;
+    height: 280px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .products__categories--title {
+    top: 364px;
+  }
+  .products__categories--title:after {
+    Width: 235px;
+  }
+  .product__categories--price {
+    top: 420px;
+  }
+  .old--price {
+    margin-right: 60px;
+    font-size: 14px;
+  }
+  .new--price {
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  .feature {
+    height: 200px;
+    width: 200px;
+  }
+  .eco__right {
+    height: auto;
+  }
+  .category {
+    margin-top: 50px;
+  }
+  .wrapper {
+    padding-top: 90px;
+  }
+  .categories__list--item {
+    width: 260px;
+    height: 280px;
+    padding-top: 100px;
+  }
+  .categories--btn {
+    height: 55px;
+    width: 151px;
+    font-size: 15px;
+  }
+  .subscribe__main--text {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 30px;
+  }
+  input {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  .subscribe__main {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .subscribe--btn--text {
+    font-size: 12px;
+  }
+  .subscribe--btn {
+    width: 162px;
+  }
+}
+@media (max-width: 326px) {
+  .wrapper {
+    padding-top: 50px;
+    margin-top: 50px;
+  }
+  .eco {
+    height: auto;
+    margin-bottom: 50px;
+  }
+  .contact--wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+}
