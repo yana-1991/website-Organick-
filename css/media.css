@@ -29,6 +29,7 @@
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: start;
+    background-color:rgba(126, 182, 147, 1);
     top: 0;
     left: 0;
     opacity: 0.6;
